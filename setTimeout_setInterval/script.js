@@ -30,16 +30,16 @@ btn.addEventListener('click', myAnimation);
 //     'Hello',
 // );
 
-// btn.addEventListener('click', () => {
-//     // const timerId = setTimeout(logger, 2000);
-//     timerId = setInterval(logger, 500);
-// });
+btn.addEventListener('click', () => {
+    // const timerId = setTimeout(logger, 2000);
+    timerId = setInterval(logger, 500);
+});
 
-// function logger() {
-//     i++;
-//     if (i === 3) clearInterval(timerId);
-//     console.log('text');
-// }
+function logger() {
+    i++;
+    if (i === 3) clearInterval(timerId);
+    console.log('text');
+}
 
 // let id = setTimeout(function log() {
 //     console.log('hello');
